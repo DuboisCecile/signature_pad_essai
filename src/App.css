@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+#sign-location {
+  overflow: visible;
+  position: absolute;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#contract-area {
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  background: antiquewhite;
+  width: 100%;
+  height: 200px;
+  overflow-y: scroll;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.signature-container {
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  background-color: darkgrey;
+  width: 100%;
 }
-
-.App-link {
-  color: #61dafb;
+.signature-input-wrapper {
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 5px auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signature-input {
+  transition: 1s all ease-in-out;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 100%;
+}
+.signature-input:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.signature-button-wrapper {
+  display: block;
 }
