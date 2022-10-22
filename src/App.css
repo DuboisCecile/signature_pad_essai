@@ -1,21 +1,19 @@
-#sign-location {
+/*  #sign-location {
   overflow: visible;
-  position: absolute;
-}
+  position: absolute; 
+}*/
 
-.signature-container {
-  border-radius: 5px;
-  margin: 10px;
-  padding: 10px;
-  background-color: darkgrey;
-  width: 100%;
-}
+/* .signature-container { */
+  /* border-radius: 5px; */
+  /* background-color: darkgrey; */
+  /* width: 100%; */
+/* } */
 
-.signature-input {
-  transition: 1s all ease-in-out;
-  background-color: rgba(255, 255, 255, 0.2);
-  width: 100%;
-}
-.signature-input:hover {
-  background-color: rgba(255, 255, 255, 0.7);
-}
+/* .signature-input { */
+/* transition: 1s all ease-in-out; */
+/* background-color: rgba(255, 255, 255); */
+/* width: 100%; */
+/* } */
+/* .signature-input:hover {
+  background-color: rgba(125, 125, 125, 0.7);
+} */
